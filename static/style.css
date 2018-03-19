@@ -1,9 +1,65 @@
-.bg-navigation {
-  background: url('../static/image/skyscraper.jpg');
+.bg-frontpage {
+  background: url('../static/image/frontpage.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.bg-service {
+  background: url('../static/image/service.jpg');
   height: 100vh;
   background-size: cover;
 }
 
 .font-robotto {
   font-family: 'Roboto', sans-serif;
+}
+
+a.nav-link:hover{
+  color: white !important;
+  cursor: pointer;
+}
+
+.font-size-30px {
+  font-size: 30px;
+}
+
+.font-size-20px {
+  font-size: 20px;
+}
+
+.font-size-50px {
+  font-size: 50px;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins";
+}
+
+.font-size-40px {
+  font-size: 40px;
+}
+
+
+.mr-100 {
+  margin-right: 100px;
+}
+
+.mr-90 {
+  margin-right: 90px;
+}
+
+.mr-120 {
+  margin-right: 120px;
+}
+
+.mr-95 {
+  margin-right: 95px;
 }
